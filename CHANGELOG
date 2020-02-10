@@ -1,3 +1,7 @@
+# 1.0.4
+- fix: restart HB interval when reconnecting
+- feature: support affiliate codes
+
 # 1.0.3
 - feature: add reconnect method to AO adapter
 
