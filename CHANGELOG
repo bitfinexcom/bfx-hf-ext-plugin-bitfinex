@@ -1,3 +1,8 @@
+# 1.0.7
+- meta: bump deps
+- meta: normalize eslint config
+- refactor: improve doclets
+
 # 1.0.6
 - fix: cleanup timeouts on AOAdapter disconnect()
 

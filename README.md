@@ -2,7 +2,10 @@
 
 [![Build Status](https://travis-ci.org/bitfinexcom/bfx-hf-ext-plugin-bitfinex.svg?branch=master)](https://travis-ci.org/bitfinexcom/bfx-hf-ext-plugin-bitfinex)
 
-This is the standard Bitfinex exchange adapter for the Honey Framework, for usage with `bfx-hf-algo` and any consumer of `bfx-hf-models`. It implements `Trade` and `Candle` sync methods, along with an algo order adapter necessary for executing algo orders with `bfx-hf-algo`.
+This is the standard Bitfinex exchange adapter for the Honey Framework, for
+usage with `bfx-hf-algo` and any consumer of `bfx-hf-models`. It implements
+`Trade` and `Candle` sync methods, along with an algo order adapter necessary
+for executing algo orders with `bfx-hf-algo`.
 
 ### Features
 
@@ -18,10 +21,13 @@ npm i --save bfx-hf-ext-plugin-bitfinex
 
 ### Docs
 
-For executable examples, [refer to `examples/`](/examples)
+API documentation can be found in [`docs/reference.md`](docs/reference.md), and
+examples in the [`examples`](examples) folder.
 
 ### Examples
+
 Using the DB schema
+
 ```js
 const HFDBLowDBAdapter = require('bfx-hf-models-adapter-lowdb')
 const { schema: HFDBBitfinexSchema } = require('bfx-hf-ext-plugin-bitfinex')
